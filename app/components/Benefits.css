@@ -1,0 +1,406 @@
+/* =======================================================
+   BENEFITS PREMIUM - VAQTORAPP
+======================================================= */
+
+.benefits{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:110px 22px;
+
+    background:
+        radial-gradient(circle at top left,#dff6e4 0%,transparent 35%),
+        radial-gradient(circle at bottom right,#d9ecff 0%,transparent 40%),
+        linear-gradient(180deg,#fbfdff 0%,#eef6ff 100%);
+}
+
+
+/* Luz superior */
+
+.benefits::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:650px;
+
+    height:650px;
+
+    background:rgba(46,125,50,.07);
+
+    filter:blur(120px);
+
+    top:-280px;
+
+    left:-180px;
+
+    border-radius:50%;
+}
+
+
+/* Luz inferior */
+
+.benefits::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:600px;
+
+    height:600px;
+
+    background:rgba(25,118,210,.05);
+
+    filter:blur(130px);
+
+    right:-180px;
+
+    bottom:-250px;
+
+    border-radius:50%;
+}
+
+
+.benefits-header{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:860px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+
+.section-tag{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:8px 22px;
+
+    border-radius:50px;
+
+    background:#e8f5e9;
+
+    color:#2E7D32;
+
+    font-size:.82rem;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    margin-bottom:24px;
+
+}
+
+
+.benefits-header h2{
+
+    font-size:clamp(2.3rem,4vw,3.6rem);
+
+    line-height:1.15;
+
+    color:#183b24;
+
+    font-weight:800;
+
+    margin-bottom:24px;
+
+}
+
+
+.benefits-header p{
+
+    font-size:1.08rem;
+
+    line-height:1.9;
+
+    color:#5d6774;
+
+    max-width:760px;
+
+    margin:auto;
+
+}
+
+
+.benefits-grid{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:1250px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:28px;
+
+}
+
+
+.card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:38px 28px;
+
+    border-radius:28px;
+
+    background:rgba(255,255,255,.72);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.65);
+
+    transition:.45s;
+
+    box-shadow:
+
+        0 15px 35px rgba(0,0,0,.06),
+
+        inset 0 1px 0 rgba(255,255,255,.8);
+
+}
+.card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:-120%;
+
+    width:70%;
+
+    height:100%;
+
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,.45),
+        transparent
+    );
+
+    transition:.8s;
+}
+
+.card-glow{
+
+    position:absolute;
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    background:rgba(76,175,80,.18);
+
+    filter:blur(70px);
+
+    top:-70px;
+
+    right:-70px;
+
+    opacity:0;
+
+    transition:.45s;
+}
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:
+        0 28px 60px rgba(0,0,0,.12),
+        0 10px 25px rgba(46,125,50,.18);
+
+    border-color:rgba(76,175,80,.35);
+}
+
+.card:hover::before{
+
+    left:160%;
+}
+
+.card:hover .card-glow{
+
+    opacity:1;
+}
+
+.icon{
+
+    width:74px;
+
+    height:74px;
+
+    margin-bottom:26px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:22px;
+
+    background:linear-gradient(
+        135deg,
+        #43A047,
+        #2E7D32
+    );
+
+    color:#fff;
+
+    box-shadow:
+        0 15px 30px rgba(46,125,50,.28);
+
+    transition:.35s;
+}
+
+.card:hover .icon{
+
+    transform:rotate(-6deg) scale(1.08);
+}
+
+.icon svg{
+
+    width:34px;
+
+    height:34px;
+}
+
+.card h3{
+
+    font-size:1.18rem;
+
+    font-weight:700;
+
+    color:#16351f;
+
+    margin-bottom:14px;
+
+    line-height:1.35;
+}
+
+.card p{
+
+    font-size:.97rem;
+
+    line-height:1.75;
+
+    color:#667085;
+}
+
+/* ===============================
+   RESPONSIVO
+================================ */
+
+@media (max-width:1100px){
+
+    .benefits-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .benefits{
+
+        padding:80px 20px;
+
+    }
+
+    .benefits-header{
+
+        margin-bottom:45px;
+
+    }
+
+    .benefits-header h2{
+
+        font-size:2rem;
+
+    }
+
+    .benefits-header p{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
+    }
+
+    .benefits-grid{
+
+        grid-template-columns:1fr;
+
+        gap:22px;
+
+    }
+
+    .card{
+
+        padding:30px 24px;
+
+    }
+
+}
+
+@media (max-width:480px){
+
+    .icon{
+
+        width:64px;
+
+        height:64px;
+
+    }
+
+    .icon svg{
+
+        width:28px;
+
+        height:28px;
+
+    }
+
+    .card h3{
+
+        font-size:1.08rem;
+
+    }
+
+    .card p{
+
+        font-size:.92rem;
+
+    }
+
+}

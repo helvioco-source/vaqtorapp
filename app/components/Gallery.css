@@ -1,0 +1,149 @@
+.gallery{
+
+    padding:40px 5%;
+
+    background:#F8FAFC;
+
+    text-align:center;
+
+}
+
+.gallery h2{
+
+    font-size:38px;
+
+    color:#0F172A;
+
+    margin-bottom:10px;
+
+    font-weight:700;
+
+}
+
+.gallery p{
+
+    max-width:760px;
+
+    margin:auto;
+
+    font-size:17px;
+
+    color:#475569;
+
+    line-height:1.45;
+
+    margin-bottom:28px;
+
+}
+
+/* ===== GALERIA ===== */
+
+.gallery-grid{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    gap:20px;
+
+    flex-wrap:nowrap;
+
+    overflow-x:auto;
+
+    padding:10px 0;
+
+    scrollbar-width:none;
+
+}
+
+.gallery-grid::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.gallery-grid img{
+
+    width:120px;
+
+    flex:0 0 auto;
+
+    border-radius:16px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+
+    transition:.30s;
+
+    cursor:pointer;
+
+}
+
+.gallery-grid img:hover{
+
+    transform:translateY(-5px) scale(1.05);
+
+    box-shadow:0 14px 30px rgba(0,0,0,.16);
+
+}
+
+/* ===== TABLET ===== */
+
+@media(max-width:900px){
+
+    .gallery-grid{
+
+        justify-content:flex-start;
+
+        overflow-x:auto;
+
+        padding-bottom:12px;
+
+    }
+
+    .gallery-grid img{
+
+        width:110px;
+
+    }
+
+}
+
+/* ===== CELULAR ===== */
+
+@media(max-width:600px){
+
+    .gallery{
+
+        padding:28px 16px;
+
+    }
+
+    .gallery h2{
+
+        font-size:30px;
+
+    }
+
+    .gallery p{
+
+        font-size:15px;
+
+    }
+
+    .gallery-grid{
+
+        justify-content:flex-start;
+
+        gap:16px;
+
+    }
+
+    .gallery-grid img{
+
+        width:95px;
+
+    }
+
+}

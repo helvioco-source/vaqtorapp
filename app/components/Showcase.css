@@ -1,0 +1,51 @@
+.showcase{
+
+    background:#ffffff;
+
+    padding:120px 20px;
+
+    text-align:center;
+
+}
+
+.showcase-title h2{
+
+    font-size:52px;
+
+    color:#0F172A;
+
+    margin-bottom:20px;
+
+}
+
+.showcase-title p{
+
+    font-size:22px;
+
+    color:#555;
+
+    margin-bottom:70px;
+
+}
+
+.phone{
+
+    width:340px;
+
+    margin:auto;
+
+    border-radius:40px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.18);
+
+}
+
+.phone img{
+
+    width:100%;
+
+    display:block;
+
+}
