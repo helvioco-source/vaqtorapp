@@ -1,247 +1,315 @@
-/* =========================================================
-   BENEFÍCIOS — VAQTORAPP
-   ========================================================= */
+/* =======================================================
+BENEFITS PREMIUM - VAQTORAPP
+======================================================= */
 
-.benefits {
-  background: linear-gradient(180deg, #eaf7ee 0%, #f5fbf7 100%);
-  padding: 90px 8%;
-  text-align: center;
-  overflow: hidden;
+.benefits{
+    position:relative;
+    overflow:hidden;
+    padding:110px 22px;
+
+    background:
+        radial-gradient(circle at top left,#dff6e4 0%,transparent 35%),
+        radial-gradient(circle at bottom right,#d9ecff 0%,transparent 40%),
+        linear-gradient(180deg,#fbfdff 0%,#eef6ff 100%);
 }
 
-.benefits h2 {
-  font-size: 44px;
-  line-height: 1.15;
-  color: #123d25;
-  margin: 0 auto 22px;
-  max-width: 900px;
-  font-weight: 800;
+/* Luz superior */
+
+.benefits::before{
+    content:"";
+    position:absolute;
+    width:650px;
+    height:650px;
+    background:rgba(46,125,50,.07);
+    filter:blur(120px);
+    top:-280px;
+    left:-180px;
+    border-radius:50%;
 }
 
-.benefits .subtitle {
-  font-size: 20px;
-  line-height: 1.7;
-  color: #64748b;
-  max-width: 820px;
-  margin: 0 auto 55px;
+/* Luz inferior */
+
+.benefits::after{
+    content:"";
+    position:absolute;
+    width:600px;
+    height:600px;
+    background:rgba(25,118,210,.05);
+    filter:blur(130px);
+    right:-180px;
+    bottom:-250px;
+    border-radius:50%;
 }
 
-/* =========================================================
-   GRID DOS CARDS
-   ========================================================= */
-
-.benefits-grid {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 28px;
-  text-align: left;
+.benefits-header{
+    position:relative;
+    z-index:2;
+    max-width:860px;
+    margin:0 auto 70px;
+    text-align:center;
 }
 
-/* =========================================================
-   CARD
-   ========================================================= */
-
-.benefit-card {
-  background: rgba(255, 255, 255, 0.94);
-  border-radius: 28px;
-  padding: 34px 28px;
-  min-height: 300px;
-  box-sizing: border-box;
-  box-shadow: 0 15px 35px rgba(18, 61, 37, 0.08);
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    border-color 0.25s ease;
-  border: 1px solid rgba(255, 255, 255, 0.9);
+.section-tag{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:8px 22px;
+    border-radius:50px;
+    background:#e8f5e9;
+    color:#2E7D32;
+    font-size:.82rem;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:24px;
 }
 
-.benefit-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 45px rgba(18, 61, 37, 0.14);
-  border-color: rgba(31, 157, 74, 0.25);
+.benefits-header h2{
+    font-size:clamp(2.3rem,4vw,3.6rem);
+    line-height:1.15;
+    color:#183b24;
+    font-weight:800;
+    margin-bottom:24px;
 }
 
-/* =========================================================
-   ÍCONE
-   ========================================================= */
-
-.benefit-icon {
-  width: 72px;
-  height: 72px;
-  border-radius: 22px;
-  background: linear-gradient(145deg, #3ca64a, #2f8f38);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 24px;
-  box-shadow: 0 12px 25px rgba(47, 143, 56, 0.22);
+.benefits-header p{
+    font-size:1.08rem;
+    line-height:1.9;
+    color:#5d6774;
+    max-width:760px;
+    margin:auto;
 }
 
-.benefit-icon svg {
-  width: 34px;
-  height: 34px;
-  color: #ffffff;
-  stroke-width: 2;
+.benefits-grid{
+    position:relative;
+    z-index:2;
+    max-width:1250px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:28px;
 }
 
-/* =========================================================
-   TÍTULO DO CARD
-   ========================================================= */
+.card{
+    position:relative;
+    overflow:hidden;
+    padding:38px 28px;
+    border-radius:28px;
+    background:rgba(255,255,255,.72);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.65);
+    transition:.45s;
 
-.benefit-card h3 {
-  color: #123d25;
-  font-size: 19px;
-  line-height: 1.25;
-  margin: 0 0 16px;
-  font-weight: 800;
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.06),
+        inset 0 1px 0 rgba(255,255,255,.8);
 }
 
-/* =========================================================
-   TEXTO DO CARD
-   ========================================================= */
-
-.benefit-card p {
-  color: #64748b;
-  font-size: 16px;
-  line-height: 1.7;
-  margin: 0;
+.card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-120%;
+    width:70%;
+    height:100%;
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,.45),
+        transparent
+    );
+    transition:.8s;
 }
 
-/* =========================================================
-   TABLET
-   — NÃO ALTERAR A ESTRUTURA ORIGINAL
-   ========================================================= */
-
-@media (max-width: 1100px) {
-
-  .benefits {
-    padding: 80px 5%;
-  }
-
-  .benefits-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-  }
-
+.card-glow{
+    position:absolute;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background:rgba(76,175,80,.18);
+    filter:blur(70px);
+    top:-70px;
+    right:-70px;
+    opacity:0;
+    transition:.45s;
 }
 
-/* =========================================================
-   CELULAR
-   — 3 + 3 + 2 CARDS
-   ========================================================= */
+.card:hover{
+    transform:translateY(-12px);
 
-@media (max-width: 768px) {
+    box-shadow:
+        0 28px 60px rgba(0,0,0,.12),
+        0 10px 25px rgba(46,125,50,.18);
 
-  .benefits {
-    padding: 65px 18px;
-    width: 100%;
-    box-sizing: border-box;
-  }
+    border-color:rgba(76,175,80,.35);
+}
 
-  .benefits h2 {
-    font-size: 34px;
-    line-height: 1.18;
-    max-width: 100%;
-  }
+.card:hover::before{
+    left:160%;
+}
 
-  .benefits .subtitle {
-    font-size: 18px;
-    line-height: 1.65;
-    margin-bottom: 38px;
-  }
+.card:hover .card-glow{
+    opacity:1;
+}
 
-  .benefits-grid {
-    width: 100%;
-    max-width: 100%;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 14px;
-    box-sizing: border-box;
-  }
+.icon{
+    width:74px;
+    height:74px;
+    margin-bottom:26px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:22px;
+    background:linear-gradient(
+        135deg,
+        #43A047,
+        #2E7D32
+    );
+    color:#fff;
 
-  .benefit-card {
-    min-height: 0;
-    width: 100%;
-    padding: 22px 15px;
-    border-radius: 22px;
-    box-sizing: border-box;
-  }
+    box-shadow:
+        0 15px 30px rgba(46,125,50,.28);
 
-  .benefit-icon {
-    width: 54px;
-    height: 54px;
-    border-radius: 17px;
-    margin-bottom: 16px;
-  }
+    transition:.35s;
+}
 
-  .benefit-icon svg {
-    width: 27px;
-    height: 27px;
-  }
+.card:hover .icon{
+    transform:rotate(-6deg) scale(1.08);
+}
 
-  .benefit-card h3 {
-    font-size: 15px;
-    line-height: 1.25;
-    margin-bottom: 10px;
-  }
+.icon svg{
+    width:34px;
+    height:34px;
+}
 
-  .benefit-card p {
-    font-size: 13px;
-    line-height: 1.55;
-  }
+.card h3{
+    font-size:1.18rem;
+    font-weight:700;
+    color:#16351f;
+    margin-bottom:14px;
+    line-height:1.35;
+}
 
-  /*
-     O 8º card ocupa somente uma coluna.
-     Resultado:
-     1ª linha = 3 cards
-     2ª linha = 3 cards
-     3ª linha = 2 cards
-  */
+.card p{
+    font-size:.97rem;
+    line-height:1.75;
+    color:#667085;
+}
+
+/* ===============================
+RESPONSIVO
+================================ */
+
+@media (max-width:1100px){
+
+    .benefits-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
 
 }
 
-/* =========================================================
-   CELULARES PEQUENOS
-   ========================================================= */
+@media (max-width:768px){
 
-@media (max-width: 480px) {
+    .benefits{
+        padding:80px 20px;
+    }
 
-  .benefits {
-    padding-left: 18px;
-    padding-right: 18px;
-  }
+    .benefits-header{
+        margin-bottom:45px;
+    }
 
-  .benefits-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 12px;
-  }
+    .benefits-header h2{
+        font-size:2rem;
+    }
 
-  .benefit-card {
-    padding: 18px 12px;
-    border-radius: 20px;
-  }
+    .benefits-header p{
+        font-size:1rem;
+        line-height:1.8;
+    }
 
-  .benefit-icon {
-    width: 48px;
-    height: 48px;
-    border-radius: 15px;
-    margin-bottom: 13px;
-  }
+}
 
-  .benefit-icon svg {
-    width: 24px;
-    height: 24px;
-  }
+/* =========================================
+CELULAR - 3 + 3 + 2 CARDS
+Apenas telas de até 600px
+========================================= */
 
-  .benefit-card h3 {
-    font-size: 14px;
-  }
+@media (max-width:600px){
 
-  .benefit-card p {
-    font-size: 12px;
-    line-height: 1.5;
-  }
+    .benefits{
+        padding:70px 12px;
+    }
+
+    .benefits-grid{
+        grid-template-columns:repeat(3,minmax(0,1fr));
+        gap:10px;
+    }
+
+    .card{
+        padding:18px 10px;
+        border-radius:18px;
+    }
+
+    .icon{
+        width:48px;
+        height:48px;
+        margin-bottom:16px;
+        border-radius:15px;
+    }
+
+    .icon svg{
+        width:24px;
+        height:24px;
+    }
+
+    .card h3{
+        font-size:.86rem;
+        line-height:1.25;
+        margin-bottom:10px;
+    }
+
+    .card p{
+        font-size:.76rem;
+        line-height:1.5;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .benefits{
+        padding:60px 10px;
+    }
+
+    .benefits-grid{
+        gap:8px;
+    }
+
+    .card{
+        padding:16px 8px;
+        border-radius:16px;
+    }
+
+    .icon{
+        width:44px;
+        height:44px;
+        margin-bottom:14px;
+        border-radius:14px;
+    }
+
+    .icon svg{
+        width:22px;
+        height:22px;
+    }
+
+    .card h3{
+        font-size:.80rem;
+        line-height:1.25;
+    }
+
+    .card p{
+        font-size:.70rem;
+        line-height:1.45;
+    }
 
 }
