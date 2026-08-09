@@ -1,0 +1,356 @@
+/* =========================================================
+   VAQTORAPP — PÁGINA PÚBLICA DO ANIMAL
+   Identificação através do QR Code
+   ========================================================= */
+
+.animal-public-page {
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 20px;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      #dff6e4 0%,
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      #d9ecff 0%,
+      transparent 40%
+    ),
+    linear-gradient(
+      180deg,
+      #f8fbff 0%,
+      #eef6ff 100%
+    );
+}
+
+.animal-public-card {
+  width: 100%;
+  max-width: 620px;
+  box-sizing: border-box;
+
+  padding: 42px 44px;
+
+  background: rgba(255, 255, 255, 0.88);
+
+  border: 1px solid rgba(255, 255, 255, 0.8);
+
+  border-radius: 30px;
+
+  box-shadow:
+    0 25px 70px rgba(15, 23, 42, 0.10),
+    0 8px 25px rgba(46, 125, 50, 0.08);
+
+  text-align: center;
+}
+
+/* ================= LOGO ================= */
+
+.animal-public-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.animal-public-logo img {
+  width: 76px;
+  height: 76px;
+
+  object-fit: contain;
+
+  border-radius: 18px;
+}
+
+.animal-public-brand {
+  color: #183b24;
+
+  font-size: 1.45rem;
+  font-weight: 800;
+
+  letter-spacing: 1.5px;
+}
+
+.animal-public-tag {
+  display: inline-flex;
+
+  margin-top: 14px;
+  padding: 7px 16px;
+
+  border-radius: 50px;
+
+  background: #e8f5e9;
+  color: #2e7d32;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+
+  letter-spacing: 0.8px;
+}
+
+/* ================= TÍTULO ================= */
+
+.animal-public-card h1 {
+  margin: 28px 0 12px;
+
+  color: #16351f;
+
+  font-size: clamp(2rem, 5vw, 2.8rem);
+
+  line-height: 1.15;
+
+  font-weight: 800;
+}
+
+.animal-public-intro {
+  max-width: 500px;
+
+  margin: 0 auto 25px;
+
+  color: #667085;
+
+  font-size: 1rem;
+
+  line-height: 1.7;
+}
+
+/* ================= VAQ ID ================= */
+
+.animal-public-id {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 auto 28px;
+
+  padding: 16px 20px;
+
+  border-radius: 16px;
+
+  background: #f1f8f3;
+
+  border: 1px solid #d7eadb;
+}
+
+.animal-public-id span {
+  margin-bottom: 5px;
+
+  color: #5d6774;
+
+  font-size: 0.72rem;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.animal-public-id strong {
+  color: #2e7d32;
+
+  font-size: 1.1rem;
+
+  letter-spacing: 1px;
+}
+
+/* ================= INFORMAÇÕES ================= */
+
+.animal-public-info {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 16px;
+
+  text-align: left;
+}
+
+.animal-info-item {
+  min-width: 0;
+
+  padding: 20px;
+
+  border-radius: 18px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e8edf2;
+}
+
+.animal-info-label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #2e7d32;
+
+  font-size: 0.72rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.8px;
+}
+
+.animal-info-item strong {
+  display: block;
+
+  color: #263238;
+
+  font-size: 0.98rem;
+
+  line-height: 1.45;
+
+  font-weight: 600;
+
+  word-break: break-word;
+}
+
+/* ================= MENSAGEM ================= */
+
+.animal-public-message {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  margin-top: 24px;
+
+  padding: 20px 22px;
+
+  border-radius: 18px;
+
+  background: #e8f5e9;
+
+  border: 1px solid #cfe7d3;
+
+  text-align: left;
+}
+
+.animal-public-message-icon {
+  flex-shrink: 0;
+
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: #2e7d32;
+
+  font-size: 24px;
+}
+
+.animal-public-message p {
+  margin: 0;
+
+  color: #205b28;
+
+  font-size: 0.94rem;
+
+  line-height: 1.55;
+
+  font-weight: 600;
+}
+
+/* ================= RODAPÉ ================= */
+
+.animal-public-footer {
+  margin-top: 30px;
+
+  color: #8a94a3;
+
+  font-size: 0.75rem;
+
+  letter-spacing: 0.5px;
+}
+
+/* =========================================================
+   CELULAR
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .animal-public-page {
+    padding: 22px 14px;
+  }
+
+  .animal-public-card {
+    padding: 32px 20px;
+
+    border-radius: 24px;
+  }
+
+  .animal-public-logo img {
+    width: 66px;
+    height: 66px;
+  }
+
+  .animal-public-brand {
+    font-size: 1.25rem;
+  }
+
+  .animal-public-card h1 {
+    margin-top: 24px;
+
+    font-size: 2rem;
+  }
+
+  .animal-public-intro {
+    font-size: 0.94rem;
+  }
+
+  .animal-public-info {
+    grid-template-columns: 1fr;
+
+    gap: 12px;
+  }
+
+  .animal-info-item {
+    padding: 17px;
+  }
+
+  .animal-public-message {
+    align-items: flex-start;
+
+    padding: 17px;
+  }
+
+  .animal-public-message-icon {
+    width: 42px;
+    height: 42px;
+
+    font-size: 21px;
+  }
+
+  .animal-public-message p {
+    font-size: 0.88rem;
+  }
+}
+
+/* =========================================================
+   CELULAR MUITO PEQUENO
+   ========================================================= */
+
+@media (max-width: 380px) {
+  .animal-public-page {
+    padding: 16px 10px;
+  }
+
+  .animal-public-card {
+    padding: 28px 16px;
+  }
+
+  .animal-public-card h1 {
+    font-size: 1.75rem;
+  }
+
+  .animal-public-tag {
+    font-size: 0.65rem;
+  }
+}
