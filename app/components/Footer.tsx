@@ -160,23 +160,23 @@ export default function Footer() {
 
         <div className="footer-links">
 
-          <a href="#">
-            POLÍTICA DE PRIVACIDADE
-          </a>
+  <a href="/politica-de-privacidade">
+    POLÍTICA DE PRIVACIDADE
+  </a>
 
-          <span>•</span>
+  <span>•</span>
 
-          <a href="#">
-            TERMOS DE USO
-          </a>
+  <a href="/termos-de-uso">
+    TERMOS DE USO
+  </a>
 
-          <span>•</span>
+  <span>•</span>
 
-          <a href="#">
-            LGPD
-          </a>
+  <a href="/lgpd">
+    LGPD
+  </a>
 
-        </div>
+</div>
 
       </div>
 
