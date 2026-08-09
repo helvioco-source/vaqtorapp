@@ -1,11 +1,11 @@
 "use client";
 
+import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
 
 import "./animal.css";
 
-export default function AnimalPublico() {
+function AnimalPublicoConteudo() {
   const searchParams = useSearchParams();
 
   const [vaqId, setVaqId] = useState("");
@@ -116,5 +116,13 @@ export default function AnimalPublico() {
 
       </section>
     </main>
+  );
+}
+
+export default function AnimalPublico() {
+  return (
+    <Suspense fallback={null}>
+      <AnimalPublicoConteudo />
+    </Suspense>
   );
 }
