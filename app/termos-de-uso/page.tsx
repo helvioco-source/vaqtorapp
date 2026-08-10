@@ -250,6 +250,33 @@ export default function TermosDeUso() {
             >
               <strong>VAQTORAPP — Versão 1.0</strong>
             </p>
+
+            {/* BOTÃO VOLTAR PARA O INÍCIO */}
+            <div
+              style={{
+                textAlign: "center",
+                marginTop: "30px",
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "14px 28px",
+                  borderRadius: "12px",
+                  background: "#16a34a",
+                  color: "#ffffff",
+                  textDecoration: "none",
+                  fontSize: "1rem",
+                  fontWeight: 700,
+                  transition: "opacity .2s ease",
+                }}
+              >
+                Voltar para o início
+              </a>
+            </div>
           </div>
         </section>
       </main>
