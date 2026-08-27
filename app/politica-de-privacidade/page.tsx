@@ -102,17 +102,23 @@ export default function PoliticaDePrivacidade() {
               das condições descritas nesta Política de Privacidade.
             </p>
 
-            <h2>2. Identificação do responsável</h2>
+            <h2>2. Identificação da controladora</h2>
             <p>
-              <strong>VAQTORAPP</strong>
+              <strong>VAQTORAPP GESTAO DE DADOS LTDA</strong>
               <br />
-              Responsável: Helvio Ferreira de Melo Côrtes
+              Nome fantasia: VAQTORAPP
               <br />
-              Função: Proprietário / Criador-Desenvolvedor de Software
+              CNPJ: 68.819.492/0001-85
+              <br />
+              Representantes legais: Helvio Ferreira de Melo Côrtes e
+              Valmir Alves de Andrade
+              <br />
+              Endereço: Rua 1, s/n, Quadra 1, Lote 10, Setor Lima,
+              Sanclerlândia/GO, CEP 76.160-000
               <br />
               E-mail: vaqtorapp@gmail.com
               <br />
-              Localização: Sanclerlândia/GO
+              Telefone/WhatsApp: (64) 99283-1256
               <br />
               Site: vaqtorapp.vercel.app
             </p>
@@ -315,6 +321,8 @@ export default function PoliticaDePrivacidade() {
 
             <p>
               <strong>E-mail: vaqtorapp@gmail.com</strong>
+              <br />
+              <strong>Telefone/WhatsApp: (64) 99283-1256</strong>
             </p>
 
             <p>
@@ -404,15 +412,21 @@ export default function PoliticaDePrivacidade() {
 
             <h2>17. Informações de contato</h2>
             <p>
-              <strong>VAQTORAPP</strong>
+              <strong>VAQTORAPP GESTAO DE DADOS LTDA</strong>
               <br />
-              Responsável: Helvio Ferreira de Melo Côrtes
+              Nome fantasia: VAQTORAPP
               <br />
-              Proprietário / Criador-Desenvolvedor de Software
+              CNPJ: 68.819.492/0001-85
+              <br />
+              Representantes legais: Helvio Ferreira de Melo Côrtes e
+              Valmir Alves de Andrade
+              <br />
+              Endereço: Rua 1, s/n, Quadra 1, Lote 10, Setor Lima,
+              Sanclerlândia/GO, CEP 76.160-000
               <br />
               E-mail: vaqtorapp@gmail.com
               <br />
-              Sanclerlândia/GO
+              Telefone/WhatsApp: (64) 99283-1256
               <br />
               Site: vaqtorapp.vercel.app
             </p>
@@ -426,9 +440,9 @@ export default function PoliticaDePrivacidade() {
                 fontSize: ".9rem",
               }}
             >
-              <strong>VAQTORAPP — Versão 1.0</strong>
+              <strong>VAQTORAPP — Versão 1.1</strong>
               <br />
-              Última atualização: agosto de 2026
+              Última atualização: 27 de agosto de 2026
             </p>
           </div>
 
