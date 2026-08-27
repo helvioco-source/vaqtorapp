@@ -77,6 +77,37 @@ export default function TermosDeUso() {
               fontSize: "1rem",
             }}
           >
+            <div
+              style={{
+                marginBottom: "36px",
+                padding: "24px",
+                borderRadius: "18px",
+                background: "#f0fdf4",
+                border: "1px solid #bbf7d0",
+              }}
+            >
+              <h2 style={{ marginTop: 0 }}>Identificação da Empresa</h2>
+              <p style={{ marginBottom: 0 }}>
+                <strong>VAQTORAPP GESTAO DE DADOS LTDA</strong>
+                <br />
+                Nome fantasia: VAQTORAPP
+                <br />
+                Sociedade Empresária Limitada — ME
+                <br />
+                CNPJ: 68.819.492/0001-85
+                <br />
+                Endereço: Rua 1, s/n, Quadra 1, Lote 10, Setor Lima,
+                Sanclerlândia/GO, CEP 76.160-000
+                <br />
+                E-mail: vaqtorapp@gmail.com
+                <br />
+                Telefone: (64) 99283-1256
+                <br />
+                Representantes legais: Helvio Ferreira de Melo Côrtes e
+                Valmir Alves de Andrade
+              </p>
+            </div>
+
             <h2>1. Aceitação dos Termos</h2>
             <p>
               Ao utilizar o VAQTORAPP, o Usuário declara que leu,
@@ -96,15 +127,45 @@ export default function TermosDeUso() {
             <h2>3. Implantação e Assinatura</h2>
             <p>
               A utilização do VAQTORAPP ocorrerá mediante contratação do
-              serviço. Haverá cobrança de um valor fixo referente à
-              implantação do sistema e, posteriormente, cobrança mensal
-              referente à assinatura e manutenção do aplicativo.
+              serviço. O valor promocional de lançamento da implantação é de
+              R$ 3.890,00 (três mil oitocentos e noventa reais), em parcela
+              única ou em até 4 (quatro) parcelas sem juros. A mensalidade é
+              de R$ 149,00 (cento e quarenta e nove reais), conforme as
+              condições da contratação.
             </p>
 
             <p>
               Não haverá período de teste gratuito. A implantação do sistema
               será realizada uma única vez, conforme as condições acordadas
               entre as partes.
+            </p>
+
+            <h3>3.1. Valor Promocional de Lançamento</h3>
+            <p>
+              O valor de R$ 3.890,00 constitui condição promocional de
+              lançamento do VAQTORAPP. A promoção poderá ser encerrada ou
+              alterada a qualquer momento, a critério do VAQTORAPP.
+            </p>
+
+            <p>
+              Qualquer novo valor será aplicado exclusivamente aos novos
+              Produtores Rurais que formalizarem a contratação após o
+              encerramento ou a alteração da promoção. Os Produtores Rurais
+              que já tiverem formalizado a contratação manterão integralmente
+              o valor acordado, não lhes sendo exigidos reajuste,
+              complementação, diferença de preço, cobrança retroativa ou
+              qualquer pagamento adicional em razão do encerramento ou da
+              alteração da promoção.
+            </p>
+
+            <p>
+              Para novas contratações, o valor-base vigente será informado
+              previamente. Quando o cadastro inicial dos animais for
+              solicitado à equipe de suporte do VAQTORAPP, será aplicado
+              acréscimo sucessivo e cumulativo de 25% (vinte e cinco por
+              cento) sobre o valor da faixa imediatamente anterior para cada
+              nova faixa de até 100 (cem) animais. O cálculo partirá do
+              valor-base vigente apresentado na proposta comercial.
             </p>
 
             <h2>4. Kit de Implantação</h2>
@@ -218,23 +279,30 @@ export default function TermosDeUso() {
 
             <h2>13. Foro</h2>
             <p>
-              Fica eleito o Foro da Comarca de Sanclerlândia, Estado de
-              Goiás, para dirimir eventuais questões decorrentes destes
-              Termos de Uso, ressalvadas as hipóteses em que a legislação
-              aplicável determine foro diverso.
+              Fica eleito o Foro da Comarca de Sanclerlândia — GO para
+              dirimir quaisquer dúvidas ou controvérsias decorrentes destes
+              Termos de Uso, com renúncia expressa a qualquer outro foro, por
+              mais privilegiado que seja.
             </p>
 
             <h2>14. Informações de Contato</h2>
             <p>
-              <strong>VAQTORAPP</strong>
+              <strong>VAQTORAPP GESTAO DE DADOS LTDA</strong>
               <br />
-              Responsável: Helvio Ferreira de Melo Côrtes
+              Nome fantasia: VAQTORAPP
               <br />
-              Proprietário / Criador-Desenvolvedor de Software
+              CNPJ: 68.819.492/0001-85
+              <br />
+              Representantes legais: Helvio Ferreira de Melo Côrtes e Valmir
+              Alves de Andrade
               <br />
               E-mail: vaqtorapp@gmail.com
               <br />
-              Sanclerlândia/GO
+              Telefone: (64) 99283-1256
+              <br />
+              Rua 1, s/n, Quadra 1, Lote 10, Setor Lima
+              <br />
+              CEP 76.160-000 — Sanclerlândia/GO
               <br />
               Site: vaqtorapp.vercel.app
             </p>
@@ -248,7 +316,9 @@ export default function TermosDeUso() {
                 fontSize: ".9rem",
               }}
             >
-              <strong>VAQTORAPP — Versão 1.0</strong>
+              <strong>
+                VAQTORAPP — Versão 1.2 — 27 de agosto de 2026
+              </strong>
             </p>
 
             {/* BOTÃO VOLTAR PARA O INÍCIO */}
