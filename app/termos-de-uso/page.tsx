@@ -127,45 +127,230 @@ export default function TermosDeUso() {
             <h2>3. Implantação e Assinatura</h2>
             <p>
               A utilização do VAQTORAPP ocorrerá mediante contratação do
-              serviço. O valor promocional de lançamento da implantação é de
-              R$ 3.890,00 (três mil oitocentos e noventa reais), em parcela
-              única ou em até 4 (quatro) parcelas sem juros. A mensalidade é
-              de R$ 149,00 (cento e quarenta e nove reais), conforme as
-              condições da contratação.
+              serviço. Durante o período de lançamento, o valor da implantação
+              é oferecido em condição promocional. Para pagamento à vista, o
+              valor será de R$ 3.890,00 (três mil oitocentos e noventa reais),
+              podendo ser pago por PIX, cartão de débito ou cartão de crédito
+              em parcela única.
             </p>
 
             <p>
-              Não haverá período de teste gratuito. A implantação do sistema
-              será realizada uma única vez, conforme as condições acordadas
-              entre as partes.
+              Caso o Produtor Rural opte pelo pagamento parcelado, a implantação
+              poderá ser paga em 4 (quatro) parcelas de R$ 1.025,00 (um mil e
+              vinte e cinco reais), totalizando R$ 4.100,00 (quatro mil e cem
+              reais).
+            </p>
+
+            <p>
+              A mensalidade permanece no valor de R$ 149,00 (cento e quarenta e
+              nove reais), conforme as condições da contratação. Não haverá
+              período de teste gratuito. A implantação do sistema será realizada
+              uma única vez, conforme as condições acordadas entre as partes.
             </p>
 
             <h3>3.1. Valor Promocional de Lançamento</h3>
             <p>
-              O valor de R$ 3.890,00 constitui condição promocional de
-              lançamento do VAQTORAPP. A promoção poderá ser encerrada ou
-              alterada a qualquer momento, a critério do VAQTORAPP.
+              Os valores de implantação possuem caráter promocional de
+              lançamento e poderão ser alterados pelo VAQTORAPP, a qualquer
+              momento, para novas contratações, de acordo com critérios
+              comerciais, custos operacionais, custos de materiais, fornecedores
+              ou demais condições de mercado.
             </p>
 
             <p>
-              Qualquer novo valor será aplicado exclusivamente aos novos
-              Produtores Rurais que formalizarem a contratação após o
-              encerramento ou a alteração da promoção. Os Produtores Rurais
-              que já tiverem formalizado a contratação manterão integralmente
-              o valor acordado, não lhes sendo exigidos reajuste,
-              complementação, diferença de preço, cobrança retroativa ou
-              qualquer pagamento adicional em razão do encerramento ou da
-              alteração da promoção.
+              Eventuais alterações nos valores para novas contratações não
+              produzirão efeitos retroativos sobre clientes que já tenham
+              formalizado sua contratação, permanecendo preservadas as condições
+              comerciais estabelecidas no momento da contratação, ressalvados os
+              reajustes ou alterações especificamente previstos nestes Termos de
+              Uso.
             </p>
 
             <p>
-              Para novas contratações, o valor-base vigente será informado
-              previamente. Quando o cadastro inicial dos animais for
-              solicitado à equipe de suporte do VAQTORAPP, será aplicado
-              acréscimo sucessivo e cumulativo de 25% (vinte e cinco por
-              cento) sobre o valor da faixa imediatamente anterior para cada
-              nova faixa de até 100 (cem) animais. O cálculo partirá do
-              valor-base vigente apresentado na proposta comercial.
+              O valor da implantação efetivamente contratado e acordado entre as
+              partes não será reembolsável, por corresponder à implantação e
+              configuração do sistema, preparação e disponibilização do acesso,
+              fornecimento do Kit de Implantação, treinamento, cadastramento
+              inicial dos animais quando solicitado pelo Produtor Rural e demais
+              serviços e materiais previstos nestes Termos de Uso. Essa condição
+              não afasta eventuais direitos decorrentes de garantia legal ou
+              contratual aplicáveis aos produtos fornecidos.
+            </p>
+
+            <h3>3.2. Serviços e Itens Incluídos na Implantação</h3>
+            <p>Estão incluídos no valor da implantação:</p>
+
+            <ol>
+              <li>
+                configuração inicial do sistema VAQTORAPP e preparação do acesso
+                do Produtor Rural;
+              </li>
+              <li>
+                fornecimento do Kit de Implantação, contendo os equipamentos,
+                materiais e demais itens especificados nestes Termos de Uso;
+              </li>
+              <li>
+                implantação e configuração inicial das funcionalidades
+                disponibilizadas pelo VAQTORAPP;
+              </li>
+              <li>
+                cadastro inicial dos animais da propriedade, realizado pela
+                equipe de suporte do VAQTORAPP quando solicitado pelo Produtor
+                Rural, observados os limites e condições desta cláusula;
+              </li>
+              <li>
+                treinamento do Produtor Rural, de seus funcionários ou de outras
+                pessoas por ele indicadas para utilização do aplicativo
+                VAQTORAPP e de suas principais funcionalidades.
+              </li>
+            </ol>
+
+            <p>
+              Caso o Produtor Rural opte por realizar o cadastramento dos animais
+              por conta própria, por meio de seus funcionários ou por pessoas por
+              ele autorizadas, essa opção não implicará redução, desconto ou
+              devolução de parte do valor da implantação, uma vez que o preço
+              contratado corresponde ao conjunto de serviços, materiais,
+              equipamentos, estrutura, configuração, treinamento e
+              disponibilização inicial do sistema.
+            </p>
+
+            <h3>3.3. Cadastro de Animais Acima do Limite Inicial</h3>
+            <p>
+              O valor da implantação inclui, quando solicitado pelo Produtor
+              Rural, o cadastramento inicial realizado pela equipe de suporte do
+              VAQTORAPP de até 100 (cem) animais, sendo concedida, em benefício
+              do Produtor Rural, uma margem de tolerância gratuita de até 10
+              (dez) animais adicionais, permitindo o cadastro de até 110 (cento
+              e dez) animais sem cobrança adicional pelo serviço de
+              cadastramento.
+            </p>
+
+            <p>Para quantidades superiores, serão utilizados como referência:</p>
+
+            <ul>
+              <li>de 1 a 110 animais: sem cobrança adicional pelo cadastro;</li>
+              <li>de 111 a 210 animais: R$ 1.000,00 adicionais;</li>
+              <li>de 211 a 310 animais: R$ 2.000,00 adicionais;</li>
+              <li>de 311 a 410 animais: R$ 3.000,00 adicionais;</li>
+              <li>de 411 a 510 animais: R$ 4.000,00 adicionais;</li>
+              <li>
+                e assim sucessivamente, acrescentando-se R$ 1.000,00 (um mil
+                reais) para cada nova faixa de até 100 (cem) animais.
+              </li>
+            </ul>
+
+            <p>
+              Esses valores referem-se exclusivamente ao serviço de cadastramento
+              realizado pela equipe de suporte do VAQTORAPP quando solicitado
+              pelo Produtor Rural. Os valores constituem referência e poderão ser
+              previamente negociados e ajustados entre as partes, considerando a
+              quantidade de animais, características e localização da propriedade,
+              condições necessárias à realização do serviço ou outras
+              circunstâncias específicas. Qualquer condição ou valor diferente
+              deverá ser previamente informado e acordado antes do início da
+              execução do serviço.
+            </p>
+
+            <p>
+              Caso o próprio Produtor Rural, seus funcionários ou pessoas por ele
+              autorizadas realizem o cadastramento dos animais excedentes
+              diretamente no aplicativo, não haverá cobrança pelo serviço de
+              cadastramento adicional.
+            </p>
+
+            <h3>3.4. Materiais Adicionais para Identificação dos Animais</h3>
+            <p>
+              Quando a quantidade de animais da propriedade ultrapassar os
+              materiais de identificação fornecidos no Kit de Implantação e houver
+              necessidade de novos brincos, os materiais serão cobrados
+              separadamente do serviço de cadastramento. Para cada grupo
+              adicional de até 100 (cem) animais, poderá ser fornecido um conjunto
+              de 200 (duzentos) brincos bovinos, composto por 100 (cem) brincos
+              numerados e 100 (cem) brincos correspondentes preparados com as
+              respectivas etiquetas contendo os QR Codes individuais dos animais
+              cadastrados.
+            </p>
+
+            <p>
+              Como valor inicial de referência, será cobrado R$ 700,00 (setecentos
+              reais) por cada conjunto adicional de 200 (duzentos) brincos
+              bovinos. Esse valor não constitui preço fixo ou permanente e poderá
+              sofrer alterações em razão de variações dos preços de fornecedores,
+              fabricação, etiquetas com QR Code, impressão, preparação, transporte,
+              tributos ou outros custos relacionados. O valor vigente deverá ser
+              previamente informado ao Produtor Rural e também poderá ser
+              negociado e ajustado entre as partes antes do fornecimento.
+            </p>
+
+            <h3>3.5. Limites de Atendimento Presencial, Deslocamento e Implantação à Distância</h3>
+            <p>
+              O cadastramento presencial de animais, a implantação presencial e
+              os demais serviços que exijam o deslocamento da equipe do VAQTORAPP
+              até a propriedade rural serão realizados sem cobrança adicional de
+              deslocamento para propriedades localizadas em Sanclerlândia-GO ou
+              dentro de uma distância de até 100 (cem) quilômetros da cidade de
+              Sanclerlândia-GO, sendo essa gratuidade aplicável exclusivamente à
+              primeira visita presencial relacionada à implantação inicial do
+              sistema.
+            </p>
+
+            <p>
+              Caso sejam necessárias ou solicitadas novas visitas presenciais
+              após a primeira visita, ainda que a propriedade esteja localizada
+              dentro do limite de 100 (cem) quilômetros de Sanclerlândia-GO, os
+              eventuais custos de deslocamento deverão ser previamente informados,
+              negociados e acordados entre o VAQTORAPP e o Produtor Rural antes
+              da realização da nova visita.
+            </p>
+
+            <p>
+              Para propriedades localizadas a uma distância superior a 100 (cem)
+              quilômetros e de até 300 (trezentos) quilômetros de
+              Sanclerlândia-GO, o atendimento presencial poderá ser realizado
+              mediante cobrança adicional referente à quilometragem excedente ao
+              limite de 100 (cem) quilômetros. O valor por quilômetro excedente e
+              a forma de cálculo da quilometragem serão previamente informados,
+              negociados e acordados entre as partes antes do deslocamento,
+              ficando o atendimento também sujeito à disponibilidade da equipe e
+              ao prévio agendamento.
+            </p>
+
+            <p>
+              Para propriedades localizadas a uma distância superior a 300
+              (trezentos) quilômetros de Sanclerlândia-GO, inclusive em outras
+              regiões ou Estados da Federação, a contratação regular do sistema
+              VAQTORAPP não compreenderá nem obrigará o VAQTORAPP a realizar
+              implantação, cadastramento, treinamento, suporte ou outro serviço
+              presencial na propriedade rural. Nessas situações, o VAQTORAPP
+              poderá prestar apoio, orientação, treinamento e suporte de forma
+              remota por ligações telefônicas, mensagens, chamadas de voz ou
+              videochamadas por WhatsApp, e-mail, videoconferências ou outras
+              ferramentas de comunicação à distância.
+            </p>
+
+            <p>
+              A ausência física da equipe do VAQTORAPP em propriedades situadas
+              além do limite de 300 (trezentos) quilômetros, antes, durante ou
+              depois da implantação, não caracterizará descumprimento contratual,
+              desde que sejam disponibilizados os meios de suporte, orientação e
+              treinamento remoto previstos nestes Termos de Uso. O cadastramento
+              dos animais nessas propriedades poderá ser realizado pelo próprio
+              Produtor Rural, seus funcionários ou pessoas por ele autorizadas,
+              com orientação remota da equipe de suporte do VAQTORAPP.
+            </p>
+
+            <p>
+              Caso, excepcionalmente, o VAQTORAPP e o Produtor Rural tenham
+              interesse em realizar atendimento presencial em propriedade situada
+              além de 300 (trezentos) quilômetros de Sanclerlândia-GO, inclusive
+              em outro Estado da Federação, esse atendimento dependerá de acordo
+              específico e prévio entre as partes. Deverão ser previamente
+              definidos e aceitos a disponibilidade da equipe, as datas, as
+              condições do atendimento e os custos de deslocamento, transporte,
+              hospedagem, alimentação e demais despesas necessárias. Esse
+              atendimento presencial não constitui obrigação decorrente da
+              contratação regular do sistema VAQTORAPP.
             </p>
 
             <h2>4. Kit de Implantação</h2>
@@ -317,7 +502,7 @@ export default function TermosDeUso() {
               }}
             >
               <strong>
-                VAQTORAPP — Versão 1.2 — 27 de agosto de 2026
+                VAQTORAPP — Versão 1.3 — 2 de setembro de 2026
               </strong>
             </p>
 
