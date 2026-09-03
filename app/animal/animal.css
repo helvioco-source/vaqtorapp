@@ -210,6 +210,38 @@
   word-break: break-word;
 }
 
+/* ================= CONTATO WHATSAPP ================= */
+
+.animal-public-contact-link {
+  display: inline-flex;
+  align-items: center;
+
+  color: #128c3e;
+
+  font-size: 0.98rem;
+  line-height: 1.45;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  word-break: break-word;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.animal-public-contact-link:hover {
+  color: #0b6f30;
+
+  text-decoration: underline;
+}
+
+.animal-public-contact-link:active {
+  transform: scale(0.98);
+}
+
 /* ================= MENSAGEM ================= */
 
 .animal-public-message {
@@ -257,6 +289,106 @@
   line-height: 1.55;
 
   font-weight: 600;
+}
+
+/* ================= BOTÃO WHATSAPP ================= */
+
+.animal-public-whatsapp-button {
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 13px;
+
+  margin-top: 18px;
+
+  padding: 16px 20px;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #25d366 0%,
+      #18b957 100%
+    );
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  box-shadow:
+    0 12px 28px rgba(37, 211, 102, 0.22);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+
+.animal-public-whatsapp-button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 16px 34px rgba(37, 211, 102, 0.30);
+
+  filter: brightness(1.02);
+}
+
+.animal-public-whatsapp-button:active {
+  transform: translateY(0);
+}
+
+.animal-public-whatsapp-icon {
+  flex-shrink: 0;
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.18);
+
+  font-size: 22px;
+}
+
+.animal-public-whatsapp-button > span:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  color: #ffffff;
+
+  font-size: 0.92rem;
+
+  font-weight: 800;
+
+  line-height: 1.25;
+
+  letter-spacing: 0.3px;
+
+  text-align: left;
+}
+
+.animal-public-whatsapp-button small {
+  display: block;
+
+  margin-top: 3px;
+
+  color: rgba(255, 255, 255, 0.88);
+
+  font-size: 0.68rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.8px;
 }
 
 /* ================= RODAPÉ ================= */
@@ -331,6 +463,29 @@
   .animal-public-message p {
     font-size: 0.88rem;
   }
+
+  .animal-public-whatsapp-button {
+    margin-top: 16px;
+
+    padding: 15px 16px;
+
+    border-radius: 16px;
+  }
+
+  .animal-public-whatsapp-icon {
+    width: 40px;
+    height: 40px;
+
+    font-size: 20px;
+  }
+
+  .animal-public-whatsapp-button > span:last-child {
+    font-size: 0.84rem;
+  }
+
+  .animal-public-whatsapp-button small {
+    font-size: 0.64rem;
+  }
 }
 
 /* =========================================================
@@ -352,5 +507,26 @@
 
   .animal-public-tag {
     font-size: 0.65rem;
+  }
+
+  .animal-public-whatsapp-button {
+    gap: 10px;
+
+    padding: 14px 12px;
+  }
+
+  .animal-public-whatsapp-icon {
+    width: 36px;
+    height: 36px;
+
+    font-size: 18px;
+  }
+
+  .animal-public-whatsapp-button > span:last-child {
+    font-size: 0.78rem;
+  }
+
+  .animal-public-whatsapp-button small {
+    font-size: 0.60rem;
   }
 }

@@ -11,10 +11,12 @@ const URL_CONSULTA_PUBLICA =
 type DadosPublicosAnimal = {
   ok: boolean;
   vaqId?: string;
+  brinco?: string;
   proprietario?: string;
   fazenda?: string;
   municipio?: string;
   contato?: string;
+  whatsappUrl?: string;
   erro?: string;
 };
 
@@ -188,11 +190,23 @@ function AnimalPublicoConteudo() {
               CONTATO
             </span>
 
-            <strong>
-              {carregando
-                ? textoCarregamento
-                : dados?.contato || "Informação não disponível"}
-            </strong>
+            {carregando ? (
+              <strong>{textoCarregamento}</strong>
+            ) : dados?.whatsappUrl && dados?.contato ? (
+              <a
+                href={dados.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="animal-public-contact-link"
+                aria-label="Abrir contato do proprietário no WhatsApp"
+              >
+                {dados.contato}
+              </a>
+            ) : (
+              <strong>
+                {dados?.contato || "Informação não disponível"}
+              </strong>
+            )}
           </div>
         </div>
 
@@ -206,6 +220,25 @@ function AnimalPublicoConteudo() {
             entre em contato com o proprietário.
           </p>
         </div>
+
+        {!carregando && dados?.whatsappUrl && (
+          <a
+            href={dados.whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="animal-public-whatsapp-button"
+            aria-label="Falar com o proprietário pelo WhatsApp"
+          >
+            <span className="animal-public-whatsapp-icon">
+              💬
+            </span>
+
+            <span>
+              FALAR COM O PROPRIETÁRIO
+              <small>PELO WHATSAPP</small>
+            </span>
+          </a>
+        )}
 
         <div className="animal-public-footer">
           VaqtorApp • Tecnologia que conecta.
