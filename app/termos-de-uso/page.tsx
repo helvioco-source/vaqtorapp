@@ -376,8 +376,8 @@ export default function TermosDeUso() {
                 no aplicativo;
               </li>
               <li>
-                1 dispositivo Tablet novo, na caixa, PC Mil de 10 polegadas,
-                Android 13 ou equivalente;
+                1 dispositivo Tablet novo, na caixa, com tela de 10 polegadas
+                ou equivalente, Android 13 ou equivalente;
               </li>
               <li>1 extrator de brinco bovino tipo navalha;</li>
               <li>1 alicate aplicador de brincos bovinos;</li>
