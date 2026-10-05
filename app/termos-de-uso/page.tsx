@@ -173,8 +173,9 @@ export default function TermosDeUso() {
               fornecimento do Kit de Implantação, treinamento, cadastramento
               inicial dos animais quando solicitado pelo Produtor Rural e demais
               serviços e materiais previstos nestes Termos de Uso. Essa condição
-              não afasta eventuais direitos decorrentes de garantia legal ou
-              contratual aplicáveis aos produtos fornecidos.
+              não afasta os direitos legais aplicáveis, inclusive eventuais
+              direitos decorrentes de garantia legal ou contratual dos produtos
+              fornecidos.
             </p>
 
             <h3>3.2. Serviços e Itens Incluídos na Implantação</h3>
@@ -194,9 +195,9 @@ export default function TermosDeUso() {
                 disponibilizadas pelo VAQTORAPP;
               </li>
               <li>
-                cadastro inicial dos animais da propriedade, realizado pela
-                equipe de suporte do VAQTORAPP quando solicitado pelo Produtor
-                Rural, observados os limites e condições desta cláusula;
+                cadastro inicial de até 100 (cem) animais da propriedade,
+                realizado pela equipe de suporte do VAQTORAPP quando solicitado pelo Produtor
+                Rural, observados os limites e condições da cláusula 3.3;
               </li>
               <li>
                 treinamento do Produtor Rural, de seus funcionários ou de outras
@@ -219,68 +220,60 @@ export default function TermosDeUso() {
             <p>
               O valor da implantação inclui, quando solicitado pelo Produtor
               Rural, o cadastramento inicial realizado pela equipe de suporte do
-              VAQTORAPP de até 100 (cem) animais, sendo concedida, em benefício
-              do Produtor Rural, uma margem de tolerância gratuita de até 10
-              (dez) animais adicionais, permitindo o cadastro de até 110 (cento
-              e dez) animais sem cobrança adicional pelo serviço de
-              cadastramento.
+              VAQTORAPP de até 100 (cem) animais. A partir do 101º animal,
+              inicia-se um novo lote adicional de até 100 (cem) animais, sem
+              margem de tolerância gratuita acima do limite inicial.
             </p>
 
-            <p>Para quantidades superiores, serão utilizados como referência:</p>
+            <p>Os lotes adicionais seguem as faixas sucessivas:</p>
 
             <ul>
-              <li>de 1 a 110 animais: sem cobrança adicional pelo cadastro;</li>
-              <li>de 111 a 210 animais: R$ 1.000,00 adicionais;</li>
-              <li>de 211 a 310 animais: R$ 2.000,00 adicionais;</li>
-              <li>de 311 a 410 animais: R$ 3.000,00 adicionais;</li>
-              <li>de 411 a 510 animais: R$ 4.000,00 adicionais;</li>
+              <li>de 101 a 200 animais: primeiro lote adicional;</li>
+              <li>de 201 a 300 animais: segundo lote adicional;</li>
+              <li>de 301 a 400 animais: terceiro lote adicional;</li>
+              <li>de 401 a 500 animais: quarto lote adicional;</li>
+              <li>de 501 a 600 animais: quinto lote adicional;</li>
               <li>
-                e assim sucessivamente, acrescentando-se R$ 1.000,00 (um mil
-                reais) para cada nova faixa de até 100 (cem) animais.
+                e assim sucessivamente, com um novo lote adicional para cada
+                faixa de até 100 (cem) animais.
               </li>
             </ul>
 
             <p>
-              Esses valores referem-se exclusivamente ao serviço de cadastramento
-              realizado pela equipe de suporte do VAQTORAPP quando solicitado
-              pelo Produtor Rural. Os valores constituem referência e poderão ser
-              previamente negociados e ajustados entre as partes, considerando a
-              quantidade de animais, características e localização da propriedade,
-              condições necessárias à realização do serviço ou outras
-              circunstâncias específicas. Qualquer condição ou valor diferente
-              deverá ser previamente informado e acordado antes do início da
-              execução do serviço.
+              Qualquer lote adicional iniciado será considerado integralmente
+              para cobrança, ainda que contenha menos de 100 (cem) animais.
+              Para cada lote adicional, o valor dos materiais descritos na
+              cláusula 3.4 será de R$ 2.000,00 (dois mil reais).
             </p>
 
             <p>
               Caso o próprio Produtor Rural, seus funcionários ou pessoas por ele
               autorizadas realizem o cadastramento dos animais excedentes
-              diretamente no aplicativo, não haverá cobrança pelo serviço de
-              cadastramento adicional.
+              diretamente no aplicativo, será cobrado somente o valor de
+              R$ 2.000,00 (dois mil reais) pelos materiais de cada lote adicional,
+              sem cobrança pelo serviço de cadastramento.
+              Caso a equipe de suporte do VAQTORAPP realize também o
+              cadastramento dos animais do lote adicional, será cobrado
+              R$ 1.000,00 (um mil reais) pelo serviço, além do valor dos
+              materiais, totalizando R$ 3.000,00 (três mil reais) por lote
+              adicional de até 100 (cem) animais. Aplicam-se as condições de
+              atendimento presencial e deslocamento previstas na cláusula 3.5.
             </p>
 
             <h3>3.4. Materiais Adicionais para Identificação dos Animais</h3>
             <p>
-              Quando a quantidade de animais da propriedade ultrapassar os
-              materiais de identificação fornecidos no Kit de Implantação e houver
-              necessidade de novos brincos, os materiais serão cobrados
-              separadamente do serviço de cadastramento. Para cada grupo
-              adicional de até 100 (cem) animais, poderá ser fornecido um conjunto
-              de 200 (duzentos) brincos bovinos, composto por 100 (cem) brincos
+              Para cada lote adicional de até 100 (cem) animais previsto na
+              cláusula 3.3, serão fornecidos 100 (cem) brincos bovinos
               numerados e 100 (cem) brincos correspondentes preparados com as
               respectivas etiquetas contendo os QR Codes individuais dos animais
-              cadastrados.
+              cadastrados, totalizando 100 (cem) pares / 200 (duzentas) peças,
+              além de 1 (um) pote de pomada cicatrizante de 250 g.
             </p>
 
             <p>
-              Como valor inicial de referência, será cobrado R$ 700,00 (setecentos
-              reais) por cada conjunto adicional de 200 (duzentos) brincos
-              bovinos. Esse valor não constitui preço fixo ou permanente e poderá
-              sofrer alterações em razão de variações dos preços de fornecedores,
-              fabricação, etiquetas com QR Code, impressão, preparação, transporte,
-              tributos ou outros custos relacionados. O valor vigente deverá ser
-              previamente informado ao Produtor Rural e também poderá ser
-              negociado e ajustado entre as partes antes do fornecimento.
+              A cobrança dos materiais e do serviço adicional de cadastramento,
+              quando realizado pela equipe de suporte do VAQTORAPP, seguirá os
+              valores e as condições previstos na cláusula 3.3.
             </p>
 
             <h3>3.5. Limites de Atendimento Presencial, Deslocamento e Implantação à Distância</h3>
@@ -351,6 +344,20 @@ export default function TermosDeUso() {
               hospedagem, alimentação e demais despesas necessárias. Esse
               atendimento presencial não constitui obrigação decorrente da
               contratação regular do sistema VAQTORAPP.
+            </p>
+
+            <h3>3.6. Reajuste da Mensalidade</h3>
+            <p>
+              A mensalidade poderá ser reajustada a critério do VAQTORAPP,
+              somente após um período mínimo de 12 (doze) meses contado da
+              contratação ou do último reajuste efetivamente aplicado. O
+              reajuste não será automático nem obrigatório e, quando aplicado,
+              considerará a variação acumulada do Índice Nacional de Preços ao
+              Consumidor Amplo (IPCA) ou de índice oficial que venha a
+              substituí-lo. O Produtor Rural deverá ser comunicado com
+              antecedência mínima de 30 (trinta) dias antes da entrada em vigor
+              do novo valor. A ausência de reajuste em determinado período não
+              gera reajuste retroativo nem obrigação de aplicá-lo.
             </p>
 
             <h2>4. Kit de Implantação</h2>
@@ -424,6 +431,17 @@ export default function TermosDeUso() {
               manutenção, falhas técnicas ou fatores externos.
             </p>
 
+            <p>
+              As partes não responderão pelo descumprimento de obrigações
+              diretamente decorrente de caso fortuito ou força maior, enquanto
+              perdurarem seus efeitos impeditivos, respeitados os direitos
+              legais aplicáveis. Em caso de força maior ou caso fortuito que
+              impossibilite a continuidade dos serviços ou o cumprimento das
+              obrigações contratuais, o contrato poderá ser rescindido
+              imediatamente por qualquer das partes, mediante comunicação à
+              outra parte e apresentação da respectiva justificativa.
+            </p>
+
             <h2>9. Propriedade Intelectual</h2>
             <p>
               O VAQTORAPP, sua identidade visual, estrutura, funcionalidades,
@@ -442,9 +460,59 @@ export default function TermosDeUso() {
 
             <h2>11. Encerramento da Utilização</h2>
             <p>
+              A assinatura terá vigência inicial de 12 (doze) meses a partir
+              da contratação e será renovada automaticamente por períodos
+              sucessivos de 12 (doze) meses, salvo manifestação de qualquer
+              das partes pela não renovação, comunicada à outra parte antes
+              do término do período vigente, preferencialmente com antecedência
+              mínima de 30 (trinta) dias. A renovação automática não implicará
+              nova cobrança do valor único de implantação. Após a renovação,
+              permanecem devidos apenas a assinatura mensal e eventuais
+              serviços adicionais expressamente solicitados, sem prejuízo das
+              obrigações pendentes anteriores previstas nesta cláusula.
+            </p>
+
+            <p>
+              O Produtor Rural poderá cancelar a assinatura a qualquer momento,
+              mediante comunicação ao VAQTORAPP, sem multa de cancelamento,
+              inclusive durante a vigência inicial ou os períodos de renovação.
+              O cancelamento não dará direito à restituição do valor da
+              implantação já realizada, observada a cláusula 3.1 e respeitados
+              os direitos legais aplicáveis.
+            </p>
+
+            <p>
+              Qualquer das partes poderá comunicar à outra sua intenção de
+              não renovar ou rescindir a contratação, preferencialmente com
+              antecedência mínima de 30 (trinta) dias, observadas as condições
+              destes Termos e os direitos legais aplicáveis, sem prejuízo dos
+              valores vencidos e dos serviços já prestados. Essa antecedência
+              não impede o cancelamento da assinatura pelo Produtor Rural a
+              qualquer momento, sem multa, nem a rescisão imediata nas situações
+              previstas na cláusula 8. A renovação automática não impede o
+              cancelamento nem a rescisão durante o período vigente.
+            </p>
+
+            <p>
+              Em caso de inadimplência por mais de 40 (quarenta) dias, o
+              VAQTORAPP poderá suspender o acesso ao sistema até a
+              regularização dos valores pendentes. A suspensão não implica
+              cancelamento automático da contratação. Após a regularização,
+              o acesso poderá ser restabelecido.
               O acesso ao VAQTORAPP poderá ser encerrado nas hipóteses
-              previstas na contratação, inclusive em caso de inadimplência,
-              uso indevido do sistema ou descumprimento destes Termos.
+              previstas na contratação, inclusive por uso indevido do sistema
+              ou outros descumprimentos destes Termos. A inadimplência seguirá
+              a regra de suspensão acima, sem encerramento automático ou
+              específico da contratação por esse motivo.
+            </p>
+
+            <p>
+              O encerramento, o cancelamento, a rescisão ou a não renovação
+              não extinguirão as obrigações pendentes constituídas até o
+              término da contratação, inclusive os valores devidos, nem as
+              obrigações que, por sua natureza, devam permanecer vigentes,
+              como as relativas à proteção de dados pessoais e à propriedade
+              intelectual.
             </p>
 
             <h2>12. Proteção de Dados Pessoais</h2>
